@@ -4,7 +4,7 @@
 // Task A
 std::vector<int> makeVector(int n) {
     std::vector<int> result;
-    for (int i = 0; i < n; i++) {
+    for (int i = 0; n > 0 && i < n - 1; i++) {
         result.push_back(i);
     }
     return result;
